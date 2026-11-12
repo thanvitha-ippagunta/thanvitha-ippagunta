@@ -6,6 +6,8 @@
 
 **Engineering intelligent systems for practical impact.**
 
+<img src="assets/intro.gif" alt="AI/ML Developer" width="300" />
+
 [Projects](#selected-projects) · [Skills](#toolkit) · [Contact](#connect)
 
 </div>
