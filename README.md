@@ -4,7 +4,7 @@
 
 <br />
 
-<img src="assets/intro.gif" alt="AI/ML Developer" width="520" />
+<img src="assets/focus-rotation.gif" alt="AI/ML Developer" width="520" />
 
 <p><a href="#featured-work">Featured work</a> &nbsp;·&nbsp; <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp; <a href="#current-focus">Current focus</a> &nbsp;·&nbsp; <a href="#connect">Connect</a></p>
 
