@@ -1,157 +1,89 @@
 <div align="center">
-
-<a href="assets/thanvitha-hero.svg"><img src="assets/hero-motion.gif" alt="Thanvitha — AI/ML Developer. Open the static hero banner." width="100%" /></a>
-
-<br />
-
-<img src="assets/focus-rotation.gif" alt="AI/ML Developer" width="520" />
-
-<p><a href="#featured-work">Featured work</a> &nbsp;·&nbsp; <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp; <a href="#current-focus">Current focus</a> &nbsp;·&nbsp; <a href="#connect">Connect</a></p>
-
+  <a href="assets/cosmic/hero.jpg"><img src="assets/cosmic/hero.gif" width="100%" alt="Thanvitha — AI/ML Developer · Agentic AI · Generative AI · Cybersecurity. A developer works beneath a ringed planet. Open the still banner." /></a>
+  <p><a href="#featured-work">Featured work</a> &nbsp;·&nbsp; <a href="#toolkit">Toolkit</a> &nbsp;·&nbsp; <a href="#github-activity">Activity</a> &nbsp;·&nbsp; <a href="#connect">Connect</a></p>
 </div>
 
----
+## Hi there, I’m Thanvitha.
 
-## About
+<a href="assets/cosmic/mascot.jpg"><img align="right" width="150" src="assets/cosmic/mascot.gif" alt="An illustrated developer in purple headphones blinks at her lunar workstation. Open the still illustration." /></a>
 
-I’m Thanvitha, a Computer Science student focused on AI/ML at PES University. I build practical software that connects machine learning and intelligent-system ideas with usable applications—from multi-agent document workflows to recommendations, forecasting, and computer vision. My current interests include agentic and generative AI, security-minded engineering, and dependable systems.
+<img width="390" src="assets/cosmic/typing.gif" alt="Current interests: Agentic AI, generative AI, and secure AI." />
+
+I’m a Computer Science student at PES University, focusing on AI and machine learning. I like taking ideas far enough to see how people might use them, whether that means tracing how an agent handled a document or turning a webcam into a drawing tool.
+
+<br clear="all" />
 
 ## Featured work
 
-<table>
-<tr>
-<td width="36%" align="center" valign="middle"><img src="assets/project-shield.svg" alt="SHIELD-MAS workflow: source ingestion, security analysis, and provenance tracing" width="100%" /></td>
-<td width="64%" valign="middle">
+### SHIELD-MAS · Multi-agent security workflow
 
-<sub>FEATURED SYSTEM &nbsp; / &nbsp; SECURITY ENGINEERING</sub>
+<a href="assets/cosmic/shield.jpg"><img src="assets/cosmic/shield.gif" width="100%" alt="A luminous glass shield scans a field of email, document, and web symbols. Open the still illustration." /></a>
 
-### SHIELD-MAS
+A Python workflow for screening email, PDFs, and web pages before they reach an agent. It detects prompt-injection patterns, supports sanitization and quarantine, and records source provenance in a NetworkX graph.
 
-A Python workflow for processing email, PDF, and webpage inputs through specialized paths. It combines prompt-injection pattern detection with sanitization and quarantine components, then uses a NetworkX provenance graph to trace sources and findings.
-
-<sub>Python · FastAPI · NetworkX · PyMuPDF · BeautifulSoup · pytest</sub>
-
+**Python · FastAPI · NetworkX · PyMuPDF · BeautifulSoup · pytest**<br />
 [Explore SHIELD-MAS →](https://github.com/thanvitha-ippagunta/shield-mas-hackathon)
 
-</td>
-</tr>
-</table>
+### Zintoo · Fashion intelligence
 
-<br />
+<a href="https://github.com/thanvitha-ippagunta/zintoo-ai-fashion-platform"><img src="assets/cosmic/zintoo.jpg" width="100%" alt="A shopper browses holographic clothing in a violet fashion studio." /></a>
 
-<table>
-<tr>
-<td width="64%" valign="middle">
+A quick-commerce prototype that combines text and image recommendations with demand forecasting by postal code and warehouse inventory planning.
 
-<sub>RECOMMENDATIONS &nbsp; / &nbsp; FORECASTING &nbsp; / &nbsp; ORCHESTRATION</sub>
+**Python · FastAPI · MongoDB · PyTorch · Transformers · scikit-learn**<br />
+[Explore Zintoo →](https://github.com/thanvitha-ippagunta/zintoo-ai-fashion-platform)
 
-### Zintoo · Fashion Intelligence
+### PreCrash-AI · Vehicle-to-vehicle risk
 
-A quick-commerce concept joining text and image recommendations, pincode-level demand forecasting, and warehouse inventory orchestration.
+<a href="https://github.com/thanvitha-ippagunta/PreCrash-AI"><img src="assets/cosmic/precrash.jpg" width="100%" alt="A sports car travels through a rain-lit city, surrounded by cyan sensor waves." /></a>
 
-<sub>Python · FastAPI · MongoDB · PyTorch · Transformers · scikit-learn · LangChain</sub>
+A Random Forest collision-risk model paired with a live 3D traffic simulation, risk analytics, and alerts.
 
-[View project →](https://github.com/thanvitha-ippagunta/zintoo-ai-fashion-platform)
+**Python · scikit-learn · Flask · JavaScript · Three.js · Chart.js**<br />
+[Explore PreCrash-AI →](https://github.com/thanvitha-ippagunta/PreCrash-AI)
 
-</td>
-<td width="36%" align="center" valign="middle"><img src="assets/project-zintoo.svg" alt="Zintoo product signals flowing through recommendations, demand forecasts, and stock plans" width="100%" /></td>
-</tr>
-</table>
+### VirtualAir · Gesture interface
 
-<br />
+<a href="https://github.com/thanvitha-ippagunta/VirtualAir"><img src="assets/cosmic/virtualair.jpg" width="100%" alt="A hand draws a bright lavender and cyan ribbon through the air." /></a>
 
-<table>
-<tr>
-<td width="36%" align="center" valign="middle"><img src="assets/project-precrash.svg" alt="PreCrash vehicle simulation connected to a collision-risk dashboard" width="100%" /></td>
-<td width="64%" valign="middle">
+A webcam interface that maps hand landmarks to drawing, erasing, color selection, and saving sketches.
 
-<sub>INTELLIGENT TRANSPORT &nbsp; / &nbsp; REAL-TIME SIMULATION</sub>
-
-### PreCrash-AI · V2V Risk
-
-A Random Forest collision-risk workflow paired with a live 3D traffic simulation, risk analytics, and proactive alerts.
-
-<sub>Python · scikit-learn · Flask · JavaScript · Three.js · Chart.js</sub>
-
-[View project →](https://github.com/thanvitha-ippagunta/PreCrash-AI)
-
-</td>
-</tr>
-</table>
-
-<br />
-
-<table>
-<tr>
-<td width="64%" valign="middle">
-
-<sub>COMPUTER VISION &nbsp; / &nbsp; HUMAN-COMPUTER INTERACTION</sub>
-
-### VirtualAir · Gesture Interface
-
-A webcam-based air-writing interface that maps hand landmarks to drawing, erasing, color selection, and saved sketches.
-
-<sub>Python · OpenCV · MediaPipe · NumPy</sub>
-
-[View project →](https://github.com/thanvitha-ippagunta/VirtualAir)
-
-</td>
-<td width="36%" align="center" valign="middle"><img src="assets/project-virtualair.svg" alt="A tracked hand gesture drawing a luminous stroke on a digital canvas" width="100%" /></td>
-</tr>
-</table>
-
-<br />
-
-<table>
-<tr>
-<td width="36%" align="center" valign="middle"><img src="assets/project-quality.svg" alt="Image search results validated, scored, and compared" width="100%" /></td>
-<td width="64%" valign="middle">
-
-<sub>FULL-STACK APPLICATION &nbsp; / &nbsp; IMAGE EVALUATION</sub>
+**Python · OpenCV · MediaPipe · NumPy**<br />
+[Explore VirtualAir →](https://github.com/thanvitha-ippagunta/VirtualAir)
 
 ### Image Quality Benchmark
 
-A comparison of image-search and scraping results with URL and metadata checks, quality scoring, and a mock AI review path.
+<a href="https://github.com/thanvitha-ippagunta/Image-Quality-Benchmark"><img src="assets/cosmic/quality.jpg" width="100%" alt="Two mountain images appear in side-by-side glass inspection displays." /></a>
 
-<sub>TypeScript · Node.js · Express · React · Vite · Tailwind CSS</sub>
+A full-stack tool for comparing image search and scraping results using URL and metadata checks, quality scores, and a mock AI review.
 
-[View project →](https://github.com/thanvitha-ippagunta/Image-Quality-Benchmark)
+**TypeScript · React · Node.js · Express · Vite · Tailwind CSS**<br />
+[Explore Image Quality Benchmark →](https://github.com/thanvitha-ippagunta/Image-Quality-Benchmark)
 
-</td>
-</tr>
-</table>
-
-<details>
-<summary>More engineering work</summary>
-
-- [Weather Prediction](https://github.com/thanvitha-ippagunta/Weather-Prediction) — Flask and scikit-learn forecasting application using Open-Meteo data.
-
-</details>
-
----
+[More repositories →](https://github.com/thanvitha-ippagunta?tab=repositories)
 
 ## Toolkit
 
-<h3>Languages</h3>
-<p><img src="https://img.shields.io/badge/Python-101827?style=flat-square&logo=python&logoColor=67e8f9" alt="Python" /> &nbsp; <img src="https://img.shields.io/badge/JavaScript-101827?style=flat-square&logo=javascript&logoColor=67e8f9" alt="JavaScript" /> &nbsp; <img src="https://img.shields.io/badge/TypeScript-101827?style=flat-square&logo=typescript&logoColor=67e8f9" alt="TypeScript" /></p>
+**Programming languages**<br />
+<img src="assets/cosmic/toolkit-languages.svg" width="216" alt="Python, JavaScript, TypeScript" />
 
-<h3>AI, machine learning & vision</h3>
-<p><img src="https://img.shields.io/badge/PyTorch-101827?style=flat-square&logo=pytorch&logoColor=67e8f9" alt="PyTorch" /> &nbsp; <img src="https://img.shields.io/badge/Transformers-101827?style=flat-square&logo=huggingface&logoColor=67e8f9" alt="Transformers" /> &nbsp; <img src="https://img.shields.io/badge/scikit--learn-101827?style=flat-square&logo=scikitlearn&logoColor=67e8f9" alt="scikit-learn" /> &nbsp; <img src="https://img.shields.io/badge/LangChain-101827?style=flat-square&logo=langchain&logoColor=67e8f9" alt="LangChain" /> &nbsp; <img src="https://img.shields.io/badge/OpenCV-101827?style=flat-square&logo=opencv&logoColor=67e8f9" alt="OpenCV" /> &nbsp; <img src="https://img.shields.io/badge/MediaPipe-101827?style=flat-square&logo=google&logoColor=67e8f9" alt="MediaPipe" /> &nbsp; <img src="https://img.shields.io/badge/NetworkX-101827?style=flat-square&logo=networkx&logoColor=67e8f9" alt="NetworkX" /></p>
+**AI/ML and computer vision**<br />
+<img src="assets/cosmic/toolkit-ml.svg" width="360" alt="PyTorch, Transformers, scikit-learn, OpenCV, NumPy" />
 
-<h3>Backend & data</h3>
-<p><img src="https://img.shields.io/badge/FastAPI-101827?style=flat-square&logo=fastapi&logoColor=67e8f9" alt="FastAPI" /> &nbsp; <img src="https://img.shields.io/badge/Flask-101827?style=flat-square&logo=flask&logoColor=67e8f9" alt="Flask" /> &nbsp; <img src="https://img.shields.io/badge/Node.js-101827?style=flat-square&logo=nodedotjs&logoColor=67e8f9" alt="Node.js" /> &nbsp; <img src="https://img.shields.io/badge/Express-101827?style=flat-square&logo=express&logoColor=67e8f9" alt="Express" /> &nbsp; <img src="https://img.shields.io/badge/MongoDB-101827?style=flat-square&logo=mongodb&logoColor=67e8f9" alt="MongoDB" /></p>
+**Backend and databases**<br />
+<img src="assets/cosmic/toolkit-backend.svg" width="360" alt="FastAPI, Flask, Node.js, Express, MongoDB" />
 
-<h3>Frontend & tools</h3>
-<p><img src="https://img.shields.io/badge/React-101827?style=flat-square&logo=react&logoColor=67e8f9" alt="React" /> &nbsp; <img src="https://img.shields.io/badge/Three.js-101827?style=flat-square&logo=threedotjs&logoColor=67e8f9" alt="Three.js" /> &nbsp; <img src="https://img.shields.io/badge/Chart.js-101827?style=flat-square&logo=chartdotjs&logoColor=67e8f9" alt="Chart.js" /> &nbsp; <img src="https://img.shields.io/badge/Git-101827?style=flat-square&logo=git&logoColor=67e8f9" alt="Git" /></p>
+**Frontend and development tools**<br />
+<img src="assets/cosmic/toolkit-frontend.svg" width="288" alt="React, Three.js, Vite, Git" />
 
----
+## GitHub activity
 
-## Current focus
-
-Agentic and generative AI · practical machine learning · human-computer interaction · secure, reliable AI systems.
+<a href="https://github.com/thanvitha-ippagunta#contribution-graph"><img src="assets/cosmic/contributions.svg" width="100%" alt="82 contributions on GitHub’s public calendar in the year ending November 17, 2026. Open GitHub for current activity." /></a>
 
 ## Connect
 
-For collaboration or opportunities, connect with me on [GitHub](https://github.com/thanvitha-ippagunta).
+I’m interested in practical applications of agentic AI, generative AI, and AI security. For project ideas or opportunities, you can [find me on GitHub](https://github.com/thanvitha-ippagunta).
 
-<div align="center"><sub>Curiosity in the questions. Care in the systems.</sub></div>
+---
+
+<div align="center"><sub><a href="assets/cosmic/stills.md">Still artwork and credits</a></sub></div>
