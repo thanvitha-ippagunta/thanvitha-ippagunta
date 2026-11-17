@@ -5,9 +5,9 @@
 
 ## Hi there, I’m Thanvitha.
 
-<a href="assets/cosmic/mascot.jpg"><img align="right" width="150" src="assets/cosmic/mascot.gif" alt="An illustrated developer in purple headphones blinks at her lunar workstation. Open the still illustration." /></a>
-
 <img width="390" src="assets/cosmic/typing.gif" alt="Current interests: Agentic AI, generative AI, and secure AI." />
+
+<a href="assets/cosmic/mascot.jpg"><img align="right" width="140" src="assets/cosmic/mascot.gif" alt="An illustrated developer in purple headphones blinks at her lunar workstation. Open the still illustration." /></a>
 
 I’m a Computer Science student at PES University, focusing on AI and machine learning. I like taking ideas far enough to see how people might use them, whether that means tracing how an agent handled a document or turning a webcam into a drawing tool.
 
